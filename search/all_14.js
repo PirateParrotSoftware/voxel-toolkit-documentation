@@ -9,7 +9,7 @@ var searchData=
   ['voxelfilereadexception_6',['VoxelFileReadException',['../class_voxel_toolkit_1_1_voxel_file_read_exception.html',1,'VoxelToolkit']]],
   ['voxelimporter_7',['VoxelImporter',['../class_voxel_toolkit_1_1_voxel_importer.html',1,'VoxelToolkit']]],
   ['voxelkind_8',['VoxelKind',['../struct_voxel_toolkit_1_1_voxel.html#a0091918390f86f4f47e5885f47f97308',1,'VoxelToolkit.Voxel.VoxelKind()'],['../namespace_voxel_toolkit.html#ab44b308b0663cfb0974ac926f9c3f08e',1,'VoxelToolkit.VoxelKind()']]],
-  ['voxelobject_9',['VoxelObject',['../class_voxel_toolkit_1_1_voxel_object.html',1,'VoxelToolkit']]],
+  ['voxelobject_9',['VoxelObject',['../class_voxel_toolkit_1_1_voxel_object.html#abf41e75a1b02876b8406e7fdb2db0565',1,'VoxelToolkit.VoxelObject.VoxelObject(Vector3Int size, ReadonlyArray&lt; Material &gt; palette, int chunkSize)'],['../class_voxel_toolkit_1_1_voxel_object.html#a52f0dbffd8719058fb28f27b15c292ba',1,'VoxelToolkit.VoxelObject.VoxelObject(Vector3Int size, int chunkSize)'],['../class_voxel_toolkit_1_1_voxel_object.html',1,'VoxelToolkit.VoxelObject']]],
   ['voxelscount_10',['VoxelsCount',['../class_voxel_toolkit_1_1_model.html#a8c89ff5a3b845c226a9e287325c0b437',1,'VoxelToolkit::Model']]],
   ['voxeltoolkit_11',['VoxelToolkit',['../namespace_voxel_toolkit.html',1,'']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['getmesh_0',['GetMesh',['../class_voxel_toolkit_1_1_voxel_object.html#aba502e7c05e79d47d47b82ae887de0bf',1,'VoxelToolkit::VoxelObject']]],
-  ['getmodel_1',['GetModel',['../class_voxel_toolkit_1_1_voxel_asset.html#af2bfd75aee33a93382774eea31ebe4b3',1,'VoxelToolkit::VoxelAsset']]],
-  ['getpalettematerial_2',['GetPaletteMaterial',['../class_voxel_toolkit_1_1_voxel_asset.html#a509988880fbd6810fb2a7568b9b46568',1,'VoxelToolkit::VoxelAsset']]]
+  ['findlayerbyid_0',['FindLayerById',['../class_voxel_toolkit_1_1_voxel_asset.html#ae681da89b836ca70cb640ac7f9d1f0eb',1,'VoxelToolkit::VoxelAsset']]],
+  ['findmodelbyid_1',['FindModelById',['../class_voxel_toolkit_1_1_voxel_asset.html#a632cb4bc5ce90893f8e84d569fe30c35',1,'VoxelToolkit::VoxelAsset']]]
 ];

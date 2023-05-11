@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['layer_0',['Layer',['../class_voxel_toolkit_1_1_layer.html',1,'VoxelToolkit']]]
+  ['group_0',['Group',['../class_voxel_toolkit_1_1_group.html',1,'VoxelToolkit']]]
 ];

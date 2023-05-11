@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Voxel Toolkit: VoxelToolkit.FacesGenerationJob Struct Reference</title>
+<title>Voxel toolkit: VoxelToolkit.FacesGenerationJob Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,11 +24,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="420x280.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Voxel Toolkit
+   <div id="projectname">Voxel toolkit
    </div>
-   <div id="projectbrief">The plugin allowing you to import voxel files and make some manipulations with them</div>
   </td>
  </tr>
  </tbody>
@@ -107,9 +105,9 @@ Inheritance diagram for VoxelToolkit.FacesGenerationJob:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abe373572c4be198d4deaacc998ea367d"><td class="memItemLeft" align="right" valign="top"><a id="abe373572c4be198d4deaacc998ea367d" name="abe373572c4be198d4deaacc998ea367d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Execute</b> ()</td></tr>
-<tr class="separator:abe373572c4be198d4deaacc998ea367d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772f44e39d1b378d979d8663e127ae50"><td class="memItemLeft" align="right" valign="top"><a id="a772f44e39d1b378d979d8663e127ae50" name="a772f44e39d1b378d979d8663e127ae50"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Execute</b> (int index)</td></tr>
+<tr class="separator:a772f44e39d1b378d979d8663e127ae50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -134,18 +132,21 @@ NativeArray&lt; <a class="el" href="struct_voxel_toolkit_1_1_voxel.html">Voxel</
 <tr class="memitem:a128bf4252ccc8aa141fe8bcbb9881c67"><td class="memItemLeft" align="right" valign="top"><a id="a128bf4252ccc8aa141fe8bcbb9881c67" name="a128bf4252ccc8aa141fe8bcbb9881c67"></a>
 NativeArray&lt; <a class="el" href="struct_voxel_toolkit_1_1_voxel.html">Voxel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>FurtherChunk</b></td></tr>
 <tr class="separator:a128bf4252ccc8aa141fe8bcbb9881c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac86ca9e1a501abfcdee90a0cfd72ac0c"><td class="memItemLeft" align="right" valign="top"><a id="ac86ca9e1a501abfcdee90a0cfd72ac0c" name="ac86ca9e1a501abfcdee90a0cfd72ac0c"></a>
-NativeArray&lt; <a class="el" href="struct_voxel_toolkit_1_1_material.html">Material</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Palette</b></td></tr>
-<tr class="separator:ac86ca9e1a501abfcdee90a0cfd72ac0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c95184645ff098ac4a04bce6c0359d9"><td class="memItemLeft" align="right" valign="top"><a id="a2c95184645ff098ac4a04bce6c0359d9" name="a2c95184645ff098ac4a04bce6c0359d9"></a>
+NativeArray&lt; <a class="el" href="struct_voxel_toolkit_1_1_transformed_material.html">TransformedMaterial</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Palette</b></td></tr>
+<tr class="separator:a2c95184645ff098ac4a04bce6c0359d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c3019bd952cd59229db924a4bb30bdd"><td class="memItemLeft" align="right" valign="top"><a id="a2c3019bd952cd59229db924a4bb30bdd" name="a2c3019bd952cd59229db924a4bb30bdd"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>ChunkSize</b></td></tr>
 <tr class="separator:a2c3019bd952cd59229db924a4bb30bdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af880e14f4f79635533538074d9456d8c"><td class="memItemLeft" align="right" valign="top"><a id="af880e14f4f79635533538074d9456d8c" name="af880e14f4f79635533538074d9456d8c"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ChunkSizeSquared</b></td></tr>
+<tr class="separator:af880e14f4f79635533538074d9456d8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13b79ce7df4d4122668b75d46d1463c5"><td class="memItemLeft" align="right" valign="top"><a id="a13b79ce7df4d4122668b75d46d1463c5" name="a13b79ce7df4d4122668b75d46d1463c5"></a>
 NativeArray&lt; <a class="el" href="struct_voxel_toolkit_1_1_face.html">Face</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Faces</b></td></tr>
 <tr class="separator:a13b79ce7df4d4122668b75d46d1463c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>Scripts/Runtime/FacesGenerationJob.cs</li>
+<li>Runtime/FacesGenerationJob.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

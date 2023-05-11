@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['copyverticesjob_0',['CopyVerticesJob',['../struct_voxel_toolkit_1_1_copy_vertices_job.html',1,'VoxelToolkit']]]
+  ['booleanarray_0',['BooleanArray',['../struct_voxel_toolkit_1_1_boolean_array.html',1,'VoxelToolkit']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['quad_0',['Quad',['../struct_voxel_toolkit_1_1_quad.html',1,'VoxelToolkit']]],
-  ['quadgenerationjob_1',['QuadGenerationJob',['../struct_voxel_toolkit_1_1_quad_generation_job.html',1,'VoxelToolkit']]]
+  ['indexgenerator_0',['IndexGenerator',['../class_voxel_toolkit_1_1_index_generator.html',1,'VoxelToolkit']]],
+  ['ivoxelobjectpartreleasehandler_1',['IVoxelObjectPartReleaseHandler',['../interface_voxel_toolkit_1_1_i_voxel_object_part_release_handler.html',1,'VoxelToolkit']]],
+  ['ivoxelobjectpartsetuphandler_2',['IVoxelObjectPartSetupHandler',['../interface_voxel_toolkit_1_1_i_voxel_object_part_setup_handler.html',1,'VoxelToolkit']]]
 ];

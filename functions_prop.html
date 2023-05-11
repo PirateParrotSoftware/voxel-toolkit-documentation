@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Voxel Toolkit: Class Members - Properties</title>
+<title>Voxel toolkit: Class Members - Properties</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,11 +24,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="420x280.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Voxel Toolkit
+   <div id="projectname">Voxel toolkit
    </div>
-   <div id="projectbrief">The plugin allowing you to import voxel files and make some manipulations with them</div>
   </td>
  </tr>
  </tbody>
@@ -102,6 +100,7 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 <li>Child&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_transformation.html#a0304c56ef654ee78af07afb60519e862">VoxelToolkit.Transformation</a></li>
 <li>ChildrenCount&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_group.html#a8bd727f658e6f9cff77de440fb43e954">VoxelToolkit.Group</a></li>
 <li>ChunksCount&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_voxel_object.html#a7e7c345f98c2b4bfe816a98ce7ce7550">VoxelToolkit.VoxelObject</a></li>
+<li>ChunkSize&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a3210e0f5caa67a517292a43bf06b4f32">VoxelToolkit.DynamicVoxelObject</a></li>
 <li>Color&#160;:&#160;<a class="el" href="struct_voxel_toolkit_1_1_material.html#a4ec08a90f06b81c5a292407861843468">VoxelToolkit.Material</a></li>
 </ul>
 
@@ -124,6 +123,7 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
 <li>ID&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_hierarchy_node.html#a80d09ad0eae487a39df804b97d66283e">VoxelToolkit.HierarchyNode</a>, <a class="el" href="class_voxel_toolkit_1_1_layer.html#a9b835bbb21a8629dcfdac20263a7d1f3">VoxelToolkit.Layer</a>, <a class="el" href="class_voxel_toolkit_1_1_model.html#a05594de34c3b885256429629d10d1b46">VoxelToolkit.Model</a></li>
+<li>IndexFormat&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a7cc76a55efe3d4b7db5be3280d18e74d">VoxelToolkit.DynamicVoxelObject</a></li>
 <li>InputSource&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#a01bc5ce46951251473335fdc8358823c">VoxelToolkit.VoxelAsset</a></li>
 <li>IOR&#160;:&#160;<a class="el" href="struct_voxel_toolkit_1_1_material.html#a792aaff28fd549dd33afc1967e924826">VoxelToolkit.Material</a></li>
 </ul>
@@ -152,8 +152,14 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 </ul>
 
 
+<h3><a id="index_o" name="index_o"></a>- o -</h3><ul>
+<li>OpaqueMaterial&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#afe80d16c9bcf5ff9a0a26a15acd96ccc">VoxelToolkit.DynamicVoxelObject</a></li>
+</ul>
+
+
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
-<li>Palette&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#a28a23feeec7c694b8fbd11f2b6e79832">VoxelToolkit.VoxelAsset</a></li>
+<li>Palette&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#a1fdb39e107825e721fcfb9f65b5a9fee">VoxelToolkit.VoxelAsset</a></li>
+<li>ParentAsset&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_model.html#ab070cd924047e003bd5ecbef50865247">VoxelToolkit.Model</a></li>
 <li>Plastic&#160;:&#160;<a class="el" href="struct_voxel_toolkit_1_1_material.html#a40b4ae0bb01c4cfa3c12c53098352ccb">VoxelToolkit.Material</a></li>
 <li>Position&#160;:&#160;<a class="el" href="struct_voxel_toolkit_1_1_voxel_data.html#ad0db835b6ba98eb745a04a0aa41de847">VoxelToolkit.VoxelData</a></li>
 </ul>
@@ -165,15 +171,16 @@ $(document).ready(function(){initNavTree('functions_prop.html',''); initResizabl
 
 
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
-<li>Scale&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_voxel_object.html#a56ba6b94d7fb23b5addc5c49c5c5e088">VoxelToolkit.VoxelObject</a></li>
-<li>Size&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_model.html#a11bf14060b4c71d8f33bbdf744ed526b">VoxelToolkit.Model</a></li>
+<li>Scale&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a958ac9b3597d51cb8d065b275a413b1e">VoxelToolkit.DynamicVoxelObject</a>, <a class="el" href="class_voxel_toolkit_1_1_voxel_object.html#a56ba6b94d7fb23b5addc5c49c5c5e088">VoxelToolkit.VoxelObject</a></li>
+<li>Size&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a1381322ea5475c2ebd85d4331cf55396">VoxelToolkit.DynamicVoxelObject</a>, <a class="el" href="class_voxel_toolkit_1_1_model.html#a11bf14060b4c71d8f33bbdf744ed526b">VoxelToolkit.Model</a>, <a class="el" href="class_voxel_toolkit_1_1_voxel_object.html#ac1d35fa41f9fed0ac55dfe7a64eac5c0">VoxelToolkit.VoxelObject</a></li>
 <li>Specular&#160;:&#160;<a class="el" href="struct_voxel_toolkit_1_1_material.html#ace1235ebe8f9b2af8eaf0c50b3d0d43c">VoxelToolkit.Material</a></li>
 </ul>
 
 
 <h3><a id="index_t" name="index_t"></a>- t -</h3><ul>
 <li>this[int index]&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_group.html#a6db8ba464e978a3be514cb41055b01fc">VoxelToolkit.Group</a>, <a class="el" href="class_voxel_toolkit_1_1_model.html#a9fac7c7aa213daa929f55b50bd6c8dee">VoxelToolkit.Model</a>, <a class="el" href="class_voxel_toolkit_1_1_shape.html#afe47e27ae0758f659245153395850c4a">VoxelToolkit.Shape</a></li>
-<li>this[Vector3Int position]&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_voxel_object.html#aaf4b7cc413455e20905ea6dca29c5ba0">VoxelToolkit.VoxelObject</a></li>
+<li>this[Vector3Int position]&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#ad69962e90ee2d67839a8020c32ee59a4">VoxelToolkit.DynamicVoxelObject</a>, <a class="el" href="class_voxel_toolkit_1_1_voxel_object.html#aaf4b7cc413455e20905ea6dca29c5ba0">VoxelToolkit.VoxelObject</a></li>
+<li>TransparentMaterial&#160;:&#160;<a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#aff2d91530d9b5ac6341a886f1562ee11">VoxelToolkit.DynamicVoxelObject</a></li>
 </ul>
 
 

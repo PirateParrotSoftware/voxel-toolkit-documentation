@@ -10,6 +10,6 @@ var class_voxel_toolkit_1_1_voxel_asset =
     [ "HierarchyRoot", "class_voxel_toolkit_1_1_voxel_asset.html#ad4e6708c12cf34267f7048bf75a54fe6", null ],
     [ "InputSource", "class_voxel_toolkit_1_1_voxel_asset.html#a01bc5ce46951251473335fdc8358823c", null ],
     [ "ModelsCount", "class_voxel_toolkit_1_1_voxel_asset.html#ac22ddebf9a7b7d471806ba4ee3456006", null ],
-    [ "Palette", "class_voxel_toolkit_1_1_voxel_asset.html#a28a23feeec7c694b8fbd11f2b6e79832", null ],
+    [ "Palette", "class_voxel_toolkit_1_1_voxel_asset.html#a1fdb39e107825e721fcfb9f65b5a9fee", null ],
     [ "Version", "class_voxel_toolkit_1_1_voxel_asset.html#a9fd734a2ad258869c57657d81aa2989c", null ]
 ];

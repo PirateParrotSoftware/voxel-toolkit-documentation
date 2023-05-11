@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Voxel Toolkit", "index.html", [
+  [ "Voxel toolkit", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
       [ "Package Members", "namespacemembers.html", [
@@ -48,7 +48,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"struct_voxel_toolkit_1_1_vertex_generation_job.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
