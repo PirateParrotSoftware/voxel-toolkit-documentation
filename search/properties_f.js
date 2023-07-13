@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['version_0',['Version',['../class_voxel_toolkit_1_1_voxel_asset.html#a9fd734a2ad258869c57657d81aa2989c',1,'VoxelToolkit::VoxelAsset']]],
-  ['voxelscount_1',['VoxelsCount',['../class_voxel_toolkit_1_1_model.html#a8c89ff5a3b845c226a9e287325c0b437',1,'VoxelToolkit::Model']]]
+  ['this_5bint_20index_5d_0',['this[int index]',['../class_voxel_toolkit_1_1_group.html#a6db8ba464e978a3be514cb41055b01fc',1,'VoxelToolkit.Group.this[int index]()'],['../class_voxel_toolkit_1_1_model.html#a9fac7c7aa213daa929f55b50bd6c8dee',1,'VoxelToolkit.Model.this[int index]()'],['../class_voxel_toolkit_1_1_shape.html#afe47e27ae0758f659245153395850c4a',1,'VoxelToolkit.Shape.this[int index]()']]],
+  ['this_5bint3_20position_5d_1',['this[int3 position]',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a7cc71bd99636bb91235b59096738d0ff',1,'VoxelToolkit.DynamicVoxelObject.this[int3 position]()'],['../class_voxel_toolkit_1_1_voxel_object.html#a5b42300895080d6cdf4e5ea5a9e7e941',1,'VoxelToolkit.VoxelObject.this[int3 position]()']]],
+  ['this_5bvector3int_20position_5d_2',['this[Vector3Int position]',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#ad69962e90ee2d67839a8020c32ee59a4',1,'VoxelToolkit.DynamicVoxelObject.this[Vector3Int position]()'],['../class_voxel_toolkit_1_1_voxel_object.html#aaf4b7cc413455e20905ea6dca29c5ba0',1,'VoxelToolkit.VoxelObject.this[Vector3Int position]()']]],
+  ['transparentedgeshift_3',['TransparentEdgeShift',['../class_voxel_toolkit_1_1_game_object_builder.html#a8bd0e1a5397f07f991db74261e497055',1,'VoxelToolkit.GameObjectBuilder.TransparentEdgeShift()'],['../class_voxel_toolkit_1_1_voxel_object.html#acb5b6fc8f0425bfef1aa4ff41b6b21b1',1,'VoxelToolkit.VoxelObject.TransparentEdgeShift()']]],
+  ['transparentmaterial_4',['TransparentMaterial',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#aff2d91530d9b5ac6341a886f1562ee11',1,'VoxelToolkit.DynamicVoxelObject.TransparentMaterial()'],['../class_voxel_toolkit_1_1_game_object_builder.html#af06788c664ca0278bb60f0246778a9f8',1,'VoxelToolkit.GameObjectBuilder.TransparentMaterial()']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['voxelkind_0',['VoxelKind',['../struct_voxel_toolkit_1_1_voxel.html#a0091918390f86f4f47e5885f47f97308',1,'VoxelToolkit::Voxel']]]
+  ['transformation_0',['Transformation',['../struct_voxel_toolkit_1_1_transformation_frame.html#ab8937bed03bde19e61f08bd44c4a8136',1,'VoxelToolkit::TransformationFrame']]],
+  ['translation_1',['Translation',['../struct_voxel_toolkit_1_1_transformation_frame.html#acf85ffc84cd149e5eefd1571798ded58',1,'VoxelToolkit::TransformationFrame']]]
 ];

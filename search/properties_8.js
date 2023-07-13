@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['material_0',['Material',['../struct_voxel_toolkit_1_1_voxel_data.html#ab823118461af10835b87b7af63e173de',1,'VoxelToolkit::VoxelData']]],
-  ['materialtype_1',['MaterialType',['../struct_voxel_toolkit_1_1_material.html#a4d17d7ae25997a856fc1ed0506dbaa83',1,'VoxelToolkit::Material']]],
-  ['meshescount_2',['MeshesCount',['../class_voxel_toolkit_1_1_voxel_object.html#a86bacf97ad151acdfc2dc7c9178accdc',1,'VoxelToolkit::VoxelObject']]],
-  ['modelscount_3',['ModelsCount',['../class_voxel_toolkit_1_1_shape.html#a6bf8be2f8cc880124046df9f0eaf7afa',1,'VoxelToolkit.Shape.ModelsCount()'],['../class_voxel_toolkit_1_1_voxel_asset.html#ac22ddebf9a7b7d471806ba4ee3456006',1,'VoxelToolkit.VoxelAsset.ModelsCount()']]]
+  ['layer_0',['Layer',['../class_voxel_toolkit_1_1_transformation.html#a6b5651a04ae38ff43386264ab71e47f2',1,'VoxelToolkit::Transformation']]],
+  ['layerscount_1',['LayersCount',['../class_voxel_toolkit_1_1_voxel_asset.html#a0168f0266fd43f4c58fdd1527d934502',1,'VoxelToolkit::VoxelAsset']]],
+  ['localbounds_2',['LocalBounds',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a888f5bf0d14c977d646b0adaa4817ef8',1,'VoxelToolkit::DynamicVoxelObject']]]
 ];

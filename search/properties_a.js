@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opaquematerial_0',['OpaqueMaterial',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#afe80d16c9bcf5ff9a0a26a15acd96ccc',1,'VoxelToolkit::DynamicVoxelObject']]]
+  ['name_0',['Name',['../class_voxel_toolkit_1_1_layer.html#ad39752340e5c64177d94e186ff9690ac',1,'VoxelToolkit::Layer']]]
 ];

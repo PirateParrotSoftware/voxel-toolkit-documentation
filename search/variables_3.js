@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['transformation_0',['Transformation',['../struct_voxel_toolkit_1_1_transformation_frame.html#ab8937bed03bde19e61f08bd44c4a8136',1,'VoxelToolkit::TransformationFrame']]],
-  ['translation_1',['Translation',['../struct_voxel_toolkit_1_1_transformation_frame.html#acf85ffc84cd149e5eefd1571798ded58',1,'VoxelToolkit::TransformationFrame']]]
+  ['material_0',['Material',['../struct_voxel_toolkit_1_1_voxel.html#a0e8b0db0da561516dedd7daf038f7503',1,'VoxelToolkit::Voxel']]],
+  ['mesh_1',['Mesh',['../struct_voxel_toolkit_1_1_mesh_descriptor.html#a1c9ac8d8ba64f54d99506df9c546f55a',1,'VoxelToolkit::MeshDescriptor']]],
+  ['meshdescriptor_2',['MeshDescriptor',['../struct_voxel_toolkit_1_1_part_info.html#a8285728715779ef2e82fb9585b12f2e6',1,'VoxelToolkit::PartInfo']]]
 ];

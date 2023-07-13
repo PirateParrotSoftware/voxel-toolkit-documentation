@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('class_voxel_toolkit_1_1_dynamic_voxel_
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_voxel_toolkit_1_1_dynamic_voxel_object-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VoxelToolkit.DynamicVoxelObject Class Reference</div></div>
@@ -106,6 +107,12 @@ Inheritance diagram for VoxelToolkit.DynamicVoxelObject:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aa31a38ddfb2789a68fdb4821f4738ff9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#aa31a38ddfb2789a68fdb4821f4738ff9">IsInVolume</a> (Vector3Int value)</td></tr>
+<tr class="memdesc:aa31a38ddfb2789a68fdb4821f4738ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the voxel position belongs to the voxel object volume.  <br /></td></tr>
+<tr class="separator:aa31a38ddfb2789a68fdb4821f4738ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a339d8c638e61d2469c0074ba532672af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a339d8c638e61d2469c0074ba532672af">IsInVolume</a> (int3 value)</td></tr>
+<tr class="memdesc:a339d8c638e61d2469c0074ba532672af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the voxel position belongs to the voxel object volume.  <br /></td></tr>
+<tr class="separator:a339d8c638e61d2469c0074ba532672af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d32d15c6dbdfcfe1a8d0adb65640eb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a9d32d15c6dbdfcfe1a8d0adb65640eb4">SetMaterial</a> (byte index, <a class="el" href="struct_voxel_toolkit_1_1_material.html">Material</a> material)</td></tr>
 <tr class="memdesc:a9d32d15c6dbdfcfe1a8d0adb65640eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the material at a given index.  <br /></td></tr>
 <tr class="separator:a9d32d15c6dbdfcfe1a8d0adb65640eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -113,18 +120,43 @@ Public Member Functions</h2></td></tr>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Clear</b> ()</td></tr>
 <tr class="memdesc:adbe0041090d7be134c8df55e1daa2806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the voxel object. <br /></td></tr>
 <tr class="separator:adbe0041090d7be134c8df55e1daa2806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2c60f4c55f1bb1a0c4a67b1d43549f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#ae2c60f4c55f1bb1a0c4a67b1d43549f5">Raycast</a> (Ray ray, out <a class="el" href="struct_voxel_toolkit_1_1_raycast_hit.html">RaycastHit</a> hit)</td></tr>
+<tr class="memdesc:ae2c60f4c55f1bb1a0c4a67b1d43549f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an intersection of the ray and the voxel object.  <br /></td></tr>
+<tr class="separator:ae2c60f4c55f1bb1a0c4a67b1d43549f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad51f397c8e46053882738c0ba61ddf43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#ad51f397c8e46053882738c0ba61ddf43">SetupFromModel</a> (<a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a> model, <a class="el" href="struct_voxel_toolkit_1_1_readonly_array.html">ReadonlyArray</a>&lt; <a class="el" href="struct_voxel_toolkit_1_1_material.html">Material</a> &gt; palette)</td></tr>
 <tr class="memdesc:ad51f397c8e46053882738c0ba61ddf43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setting up the dynamic voxel object from the model prototype.  <br /></td></tr>
 <tr class="separator:ad51f397c8e46053882738c0ba61ddf43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a143f2f4b1e949a1f5662b7bbe02f7f94"><td class="memItemLeft" align="right" valign="top">Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a143f2f4b1e949a1f5662b7bbe02f7f94">TransformWorldToVoxel</a> (Vector3 worldPosition)</td></tr>
 <tr class="memdesc:a143f2f4b1e949a1f5662b7bbe02f7f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms world point to voxel coordinates.  <br /></td></tr>
 <tr class="separator:a143f2f4b1e949a1f5662b7bbe02f7f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec9956f159849c25049e7376ccead91"><td class="memItemLeft" align="right" valign="top">Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a1ec9956f159849c25049e7376ccead91">TransformWorldToVoxel</a> (float3 worldPosition)</td></tr>
+<tr class="memdesc:a1ec9956f159849c25049e7376ccead91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms world point to voxel coordinates.  <br /></td></tr>
+<tr class="separator:a1ec9956f159849c25049e7376ccead91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865aa81ca615cd92899c35b0e97ae603"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a865aa81ca615cd92899c35b0e97ae603">TransformVoxelToWorld</a> (Vector3Int voxelPosition)</td></tr>
+<tr class="memdesc:a865aa81ca615cd92899c35b0e97ae603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms voxel point to world position.  <br /></td></tr>
+<tr class="separator:a865aa81ca615cd92899c35b0e97ae603"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89de5b167bdff52ba77d363a34e46835"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a89de5b167bdff52ba77d363a34e46835">TransformVoxelToWorld</a> (int3 voxelPosition)</td></tr>
+<tr class="memdesc:a89de5b167bdff52ba77d363a34e46835"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms voxel point to world position.  <br /></td></tr>
+<tr class="separator:a89de5b167bdff52ba77d363a34e46835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a766c1e73611863069587669b76948e23"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a766c1e73611863069587669b76948e23">SetSphere</a> (Vector3Int position, int radius, <a class="el" href="struct_voxel_toolkit_1_1_voxel.html">Voxel</a> voxel)</td></tr>
 <tr class="memdesc:a766c1e73611863069587669b76948e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the sphere of the voxels at a given position.  <br /></td></tr>
 <tr class="separator:a766c1e73611863069587669b76948e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a11f128e4aac5b1b5c007f3917ad5b04c"><td class="memItemLeft" align="right" valign="top"><a id="a11f128e4aac5b1b5c007f3917ad5b04c" name="a11f128e4aac5b1b5c007f3917ad5b04c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="separator:a11f128e4aac5b1b5c007f3917ad5b04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac27de2cfc8478765337d019bad078a70"><td class="memItemLeft" align="right" valign="top"><a id="ac27de2cfc8478765337d019bad078a70" name="ac27de2cfc8478765337d019bad078a70"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnValidate</b> ()</td></tr>
+<tr class="separator:ac27de2cfc8478765337d019bad078a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a888f5bf0d14c977d646b0adaa4817ef8"><td class="memItemLeft" align="right" valign="top"><a id="a888f5bf0d14c977d646b0adaa4817ef8" name="a888f5bf0d14c977d646b0adaa4817ef8"></a>
+Bounds&#160;</td><td class="memItemRight" valign="bottom"><b>LocalBounds</b><code> [get]</code></td></tr>
+<tr class="memdesc:a888f5bf0d14c977d646b0adaa4817ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The local bounds of the voxel object. <br /></td></tr>
+<tr class="separator:a888f5bf0d14c977d646b0adaa4817ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe80d16c9bcf5ff9a0a26a15acd96ccc"><td class="memItemLeft" align="right" valign="top"><a id="afe80d16c9bcf5ff9a0a26a15acd96ccc" name="afe80d16c9bcf5ff9a0a26a15acd96ccc"></a>
 UnityEngine.Material&#160;</td><td class="memItemRight" valign="bottom"><b>OpaqueMaterial</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:afe80d16c9bcf5ff9a0a26a15acd96ccc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The opaque material to be used for the meshes. <br /></td></tr>
@@ -137,9 +169,9 @@ UnityEngine.Material&#160;</td><td class="memItemRight" valign="bottom"><b>Trans
 IndexFormat&#160;</td><td class="memItemRight" valign="bottom"><b>IndexFormat</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a7cc76a55efe3d4b7db5be3280d18e74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/sets the index format used for the mesh. <br /></td></tr>
 <tr class="separator:a7cc76a55efe3d4b7db5be3280d18e74d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1381322ea5475c2ebd85d4331cf55396"><td class="memItemLeft" align="right" valign="top">Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a1381322ea5475c2ebd85d4331cf55396">Size</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a1381322ea5475c2ebd85d4331cf55396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/sets the size of the voxel object which should be strictly larger than 0.  <br /></td></tr>
-<tr class="separator:a1381322ea5475c2ebd85d4331cf55396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5b18dd656219055a25a80056a775252"><td class="memItemLeft" align="right" valign="top">int3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#ab5b18dd656219055a25a80056a775252">Size</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab5b18dd656219055a25a80056a775252"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets/sets the size of the voxel object which should be strictly larger than 0.  <br /></td></tr>
+<tr class="separator:ab5b18dd656219055a25a80056a775252"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a958ac9b3597d51cb8d065b275a413b1e"><td class="memItemLeft" align="right" valign="top"><a id="a958ac9b3597d51cb8d065b275a413b1e" name="a958ac9b3597d51cb8d065b275a413b1e"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a958ac9b3597d51cb8d065b275a413b1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale of the object. <br /></td></tr>
@@ -150,8 +182,103 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get
 <tr class="memitem:ad69962e90ee2d67839a8020c32ee59a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_voxel_toolkit_1_1_voxel.html">Voxel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#ad69962e90ee2d67839a8020c32ee59a4">this[Vector3Int position]</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ad69962e90ee2d67839a8020c32ee59a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets/gets the voxel at/from a given position.  <br /></td></tr>
 <tr class="separator:ad69962e90ee2d67839a8020c32ee59a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc71bd99636bb91235b59096738d0ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_voxel_toolkit_1_1_voxel.html">Voxel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_dynamic_voxel_object.html#a7cc71bd99636bb91235b59096738d0ff">this[int3 position]</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7cc71bd99636bb91235b59096738d0ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets/gets the voxel at/from a given position.  <br /></td></tr>
+<tr class="separator:a7cc71bd99636bb91235b59096738d0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a339d8c638e61d2469c0074ba532672af" name="a339d8c638e61d2469c0074ba532672af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a339d8c638e61d2469c0074ba532672af">&#9670;&#160;</a></span>IsInVolume() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VoxelToolkit.DynamicVoxelObject.IsInVolume </td>
+          <td>(</td>
+          <td class="paramtype">int3&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the voxel position belongs to the voxel object volume. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The position to check</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the position is inside the voxel object volume. False if not.</dd></dl>
+
+</div>
+</div>
+<a id="aa31a38ddfb2789a68fdb4821f4738ff9" name="aa31a38ddfb2789a68fdb4821f4738ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa31a38ddfb2789a68fdb4821f4738ff9">&#9670;&#160;</a></span>IsInVolume() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VoxelToolkit.DynamicVoxelObject.IsInVolume </td>
+          <td>(</td>
+          <td class="paramtype">Vector3Int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the voxel position belongs to the voxel object volume. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The position to check</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if the position is inside the voxel object volume. False if not.</dd></dl>
+
+</div>
+</div>
+<a id="ae2c60f4c55f1bb1a0c4a67b1d43549f5" name="ae2c60f4c55f1bb1a0c4a67b1d43549f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2c60f4c55f1bb1a0c4a67b1d43549f5">&#9670;&#160;</a></span>Raycast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool VoxelToolkit.DynamicVoxelObject.Raycast </td>
+          <td>(</td>
+          <td class="paramtype">Ray&#160;</td>
+          <td class="paramname"><em>ray</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">out <a class="el" href="struct_voxel_toolkit_1_1_raycast_hit.html">RaycastHit</a>&#160;</td>
+          <td class="paramname"><em>hit</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finds an intersection of the ray and the voxel object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ray</td><td>The ray to be casted</td></tr>
+    <tr><td class="paramname">hit</td><td>The hit result of the raycast</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Returns true if raycast hit ended up hitting the voxel object</dd></dl>
+
+</div>
+</div>
 <a id="a9d32d15c6dbdfcfe1a8d0adb65640eb4" name="a9d32d15c6dbdfcfe1a8d0adb65640eb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d32d15c6dbdfcfe1a8d0adb65640eb4">&#9670;&#160;</a></span>SetMaterial()</h2>
 
@@ -270,8 +397,89 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get
 
 </div>
 </div>
+<a id="a89de5b167bdff52ba77d363a34e46835" name="a89de5b167bdff52ba77d363a34e46835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89de5b167bdff52ba77d363a34e46835">&#9670;&#160;</a></span>TransformVoxelToWorld() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 VoxelToolkit.DynamicVoxelObject.TransformVoxelToWorld </td>
+          <td>(</td>
+          <td class="paramtype">int3&#160;</td>
+          <td class="paramname"><em>voxelPosition</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transforms voxel point to world position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxelPosition</td><td>The position of the voxel to transform</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>World coordinates</dd></dl>
+
+</div>
+</div>
+<a id="a865aa81ca615cd92899c35b0e97ae603" name="a865aa81ca615cd92899c35b0e97ae603"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a865aa81ca615cd92899c35b0e97ae603">&#9670;&#160;</a></span>TransformVoxelToWorld() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 VoxelToolkit.DynamicVoxelObject.TransformVoxelToWorld </td>
+          <td>(</td>
+          <td class="paramtype">Vector3Int&#160;</td>
+          <td class="paramname"><em>voxelPosition</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transforms voxel point to world position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voxelPosition</td><td>The position of the voxel to transform</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>World coordinates</dd></dl>
+
+</div>
+</div>
+<a id="a1ec9956f159849c25049e7376ccead91" name="a1ec9956f159849c25049e7376ccead91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ec9956f159849c25049e7376ccead91">&#9670;&#160;</a></span>TransformWorldToVoxel() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3Int VoxelToolkit.DynamicVoxelObject.TransformWorldToVoxel </td>
+          <td>(</td>
+          <td class="paramtype">float3&#160;</td>
+          <td class="paramname"><em>worldPosition</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transforms world point to voxel coordinates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">worldPosition</td><td>The world position to transform</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Voxel coordinate</dd></dl>
+
+</div>
+</div>
 <a id="a143f2f4b1e949a1f5662b7bbe02f7f94" name="a143f2f4b1e949a1f5662b7bbe02f7f94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a143f2f4b1e949a1f5662b7bbe02f7f94">&#9670;&#160;</a></span>TransformWorldToVoxel()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a143f2f4b1e949a1f5662b7bbe02f7f94">&#9670;&#160;</a></span>TransformWorldToVoxel() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -289,7 +497,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get
 <p>Transforms world point to voxel coordinates. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">worldPosition</td><td>The world position to transfor</td></tr>
+    <tr><td class="paramname">worldPosition</td><td>The world position to transform</td></tr>
   </table>
   </dd>
 </dl>
@@ -328,8 +536,8 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get
 
 </div>
 </div>
-<a id="a1381322ea5475c2ebd85d4331cf55396" name="a1381322ea5475c2ebd85d4331cf55396"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1381322ea5475c2ebd85d4331cf55396">&#9670;&#160;</a></span>Size</h2>
+<a id="ab5b18dd656219055a25a80056a775252" name="ab5b18dd656219055a25a80056a775252"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5b18dd656219055a25a80056a775252">&#9670;&#160;</a></span>Size</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,7 +546,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Vector3Int VoxelToolkit.DynamicVoxelObject.Size</td>
+          <td class="memname">int3 VoxelToolkit.DynamicVoxelObject.Size</td>
         </tr>
       </table>
   </td>
@@ -352,6 +560,36 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
     <tr><td class="paramname">ArgumentException</td><td>Throws if one of the dimensions is smaller or equal to zero</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7cc71bd99636bb91235b59096738d0ff" name="a7cc71bd99636bb91235b59096738d0ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc71bd99636bb91235b59096738d0ff">&#9670;&#160;</a></span>this[int3 position]</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_voxel_toolkit_1_1_voxel.html">Voxel</a> VoxelToolkit.DynamicVoxelObject.this[int3 position]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets/gets the voxel at/from a given position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>The position of the voxel to be gotten/set</td></tr>
   </table>
   </dd>
 </dl>

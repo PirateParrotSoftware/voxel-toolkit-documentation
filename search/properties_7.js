@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['layer_0',['Layer',['../class_voxel_toolkit_1_1_transformation.html#a6b5651a04ae38ff43386264ab71e47f2',1,'VoxelToolkit::Transformation']]]
+  ['kind_0',['Kind',['../struct_voxel_toolkit_1_1_mesh_descriptor.html#a5b095a80668191be04506d0bbeb6cd76',1,'VoxelToolkit::MeshDescriptor']]]
 ];

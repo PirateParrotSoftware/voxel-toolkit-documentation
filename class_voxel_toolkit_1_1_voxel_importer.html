@@ -92,9 +92,6 @@ $(document).ready(function(){initNavTree('class_voxel_toolkit_1_1_voxel_importer
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
-<a href="#properties">Properties</a> &#124;
 <a href="class_voxel_toolkit_1_1_voxel_importer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VoxelToolkit.VoxelImporter Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -105,39 +102,46 @@ Inheritance diagram for VoxelToolkit.VoxelImporter:</div>
  <div class="center">
   <img src="class_voxel_toolkit_1_1_voxel_importer.png" usemap="#VoxelToolkit.VoxelImporter_map" alt=""/>
   <map id="VoxelToolkit.VoxelImporter_map" name="VoxelToolkit.VoxelImporter_map">
-<area href="class_voxel_toolkit_1_1_magica_voxel_importer.html" alt="VoxelToolkit.MagicaVoxelImporter" shape="rect" coords="0,112,204,136"/>
+<area href="class_voxel_toolkit_1_1_magica_voxel_importer.html" title="Handles .vox files import." alt="VoxelToolkit.MagicaVoxelImporter" shape="rect" coords="0,56,204,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4694ead8eb686adde54f241a39b7fc79"><td class="memItemLeft" align="right" valign="top"><a id="a4694ead8eb686adde54f241a39b7fc79" name="a4694ead8eb686adde54f241a39b7fc79"></a>
-override void&#160;</td><td class="memItemRight" valign="bottom"><b>OnImportAsset</b> (AssetImportContext ctx)</td></tr>
-<tr class="separator:a4694ead8eb686adde54f241a39b7fc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:abfbcd91a103553d22987a97c3a0a739a"><td class="memItemLeft" align="right" valign="top"><a id="abfbcd91a103553d22987a97c3a0a739a" name="abfbcd91a103553d22987a97c3a0a739a"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>ImportAsset</b> (AssetImportContext ctx)</td></tr>
-<tr class="separator:abfbcd91a103553d22987a97c3a0a739a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e633fceba646c42b1ef10d0f3e0345e"><td class="memItemLeft" align="right" valign="top"><a id="a4e633fceba646c42b1ef10d0f3e0345e" name="a4e633fceba646c42b1ef10d0f3e0345e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>AddGameObjects</b> (AssetImportContext ctx)</td></tr>
-<tr class="separator:a4e633fceba646c42b1ef10d0f3e0345e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-methods" name="pro-static-methods"></a>
-Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:adb9281a9a815b28cfc6022774da10fe8"><td class="memItemLeft" align="right" valign="top"><a id="adb9281a9a815b28cfc6022774da10fe8" name="adb9281a9a815b28cfc6022774da10fe8"></a>
-static string&#160;</td><td class="memItemRight" valign="bottom"><b>ConvertProjectPathToSystemPath</b> (string projectPath)</td></tr>
-<tr class="separator:adb9281a9a815b28cfc6022774da10fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a1307dfbc716ac5352e00e35c78a578a1"><td class="memItemLeft" align="right" valign="top"><a id="a1307dfbc716ac5352e00e35c78a578a1" name="a1307dfbc716ac5352e00e35c78a578a1"></a>
-<a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html">VoxelAsset</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Asset</b><code> [get]</code></td></tr>
-<tr class="separator:a1307dfbc716ac5352e00e35c78a578a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab241e8e000346b802120a74baf646c49"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html">VoxelAsset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_voxel_importer.html#ab241e8e000346b802120a74baf646c49">ImportAsset</a> (BinaryReader reader)</td></tr>
+<tr class="separator:ab241e8e000346b802120a74baf646c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab241e8e000346b802120a74baf646c49" name="ab241e8e000346b802120a74baf646c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab241e8e000346b802120a74baf646c49">&#9670;&#160;</a></span>ImportAsset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract <a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html">VoxelAsset</a> VoxelToolkit.VoxelImporter.ImportAsset </td>
+          <td>(</td>
+          <td class="paramtype">BinaryReader&#160;</td>
+          <td class="paramname"><em>reader</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="class_voxel_toolkit_1_1_magica_voxel_importer.html#a539c2c9c2ef745229957c0cc50b7dbe7">VoxelToolkit.MagicaVoxelImporter</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Voxel Toolkit/Scripts/Importers/Editor/VoxelImporter.cs</li>
+<li>Voxel Toolkit/Scripts/Runtime/Importers/VoxelImporter.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
