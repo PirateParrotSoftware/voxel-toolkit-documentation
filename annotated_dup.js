@@ -2,11 +2,17 @@ var annotated_dup =
 [
     [ "VoxelToolkit", "namespace_voxel_toolkit.html", [
       [ "Demo", "namespace_voxel_toolkit_1_1_demo.html", [
+        [ "ExplodeVoxelDemoParticles", "class_voxel_toolkit_1_1_demo_1_1_explode_voxel_demo_particles.html", null ],
+        [ "ExplodeVoxelDemoRigidBodies", "class_voxel_toolkit_1_1_demo_1_1_explode_voxel_demo_rigid_bodies.html", null ],
         [ "Loader", "class_voxel_toolkit_1_1_demo_1_1_loader.html", null ],
-        [ "ModifyObjectInRuntimeDemo", "class_voxel_toolkit_1_1_demo_1_1_modify_object_in_runtime_demo.html", null ]
+        [ "ModifyObjectInRuntimeDemo", "class_voxel_toolkit_1_1_demo_1_1_modify_object_in_runtime_demo.html", null ],
+        [ "RaycastObjectDemo", "class_voxel_toolkit_1_1_demo_1_1_raycast_object_demo.html", null ]
       ] ],
       [ "Editor", "namespace_voxel_toolkit_1_1_editor.html", [
+        [ "GeneratorListPropertyDrawer", "class_voxel_toolkit_1_1_editor_1_1_generator_list_property_drawer.html", null ],
+        [ "GenericListPropertyDrawer", "class_voxel_toolkit_1_1_editor_1_1_generic_list_property_drawer.html", null ],
         [ "MagicaVoxelImporter", "class_voxel_toolkit_1_1_editor_1_1_magica_voxel_importer.html", null ],
+        [ "ObjectGeneratorsList", "class_voxel_toolkit_1_1_editor_1_1_object_generators_list.html", null ],
         [ "VoxelImporter", "class_voxel_toolkit_1_1_editor_1_1_voxel_importer.html", null ]
       ] ],
       [ "MagicaVoxel", "namespace_voxel_toolkit_1_1_magica_voxel.html", [
@@ -17,7 +23,9 @@ var annotated_dup =
         [ "TransformElement", "class_voxel_toolkit_1_1_magica_voxel_1_1_transform_element.html", null ]
       ] ],
       [ "BooleanArray", "struct_voxel_toolkit_1_1_boolean_array.html", null ],
+      [ "Color32", "struct_voxel_toolkit_1_1_color32.html", null ],
       [ "CopyVerticesJob", "struct_voxel_toolkit_1_1_copy_vertices_job.html", null ],
+      [ "CountQuadsJob", "struct_voxel_toolkit_1_1_count_quads_job.html", null ],
       [ "DynamicVoxelObject", "class_voxel_toolkit_1_1_dynamic_voxel_object.html", "class_voxel_toolkit_1_1_dynamic_voxel_object" ],
       [ "DynamicVoxelObjectModelLoader", "class_voxel_toolkit_1_1_dynamic_voxel_object_model_loader.html", null ],
       [ "Face", "struct_voxel_toolkit_1_1_face.html", null ],
@@ -32,7 +40,8 @@ var annotated_dup =
       [ "MagicaVoxelImporter", "class_voxel_toolkit_1_1_magica_voxel_importer.html", "class_voxel_toolkit_1_1_magica_voxel_importer" ],
       [ "Material", "struct_voxel_toolkit_1_1_material.html", "struct_voxel_toolkit_1_1_material" ],
       [ "MaterialParameters", "struct_voxel_toolkit_1_1_material_parameters.html", null ],
-      [ "Matrix3x3Int", "struct_voxel_toolkit_1_1_matrix3x3_int.html", null ],
+      [ "Matrix3x3Int", "struct_voxel_toolkit_1_1_matrix3x3_int.html", "struct_voxel_toolkit_1_1_matrix3x3_int" ],
+      [ "MeshColliderSetupHandler", "class_voxel_toolkit_1_1_mesh_collider_setup_handler.html", "class_voxel_toolkit_1_1_mesh_collider_setup_handler" ],
       [ "MeshDescriptor", "struct_voxel_toolkit_1_1_mesh_descriptor.html", "struct_voxel_toolkit_1_1_mesh_descriptor" ],
       [ "MeshGenerationJob", "struct_voxel_toolkit_1_1_mesh_generation_job.html", null ],
       [ "Model", "class_voxel_toolkit_1_1_model.html", "class_voxel_toolkit_1_1_model" ],
@@ -43,6 +52,9 @@ var annotated_dup =
       [ "Reader", "class_voxel_toolkit_1_1_reader.html", null ],
       [ "ReadonlyArray", "struct_voxel_toolkit_1_1_readonly_array.html", null ],
       [ "Shape", "class_voxel_toolkit_1_1_shape.html", "class_voxel_toolkit_1_1_shape" ],
+      [ "SnowVoxelObjectModifier", "class_voxel_toolkit_1_1_snow_voxel_object_modifier.html", null ],
+      [ "TextureDescriptor", "struct_voxel_toolkit_1_1_texture_descriptor.html", null ],
+      [ "TextureFillJob", "struct_voxel_toolkit_1_1_texture_fill_job.html", null ],
       [ "Transformation", "class_voxel_toolkit_1_1_transformation.html", "class_voxel_toolkit_1_1_transformation" ],
       [ "TransformationFrame", "struct_voxel_toolkit_1_1_transformation_frame.html", "struct_voxel_toolkit_1_1_transformation_frame" ],
       [ "TransformedMaterial", "struct_voxel_toolkit_1_1_transformed_material.html", null ],
@@ -53,6 +65,10 @@ var annotated_dup =
       [ "VoxelData", "struct_voxel_toolkit_1_1_voxel_data.html", "struct_voxel_toolkit_1_1_voxel_data" ],
       [ "VoxelDataReadException", "class_voxel_toolkit_1_1_voxel_data_read_exception.html", null ],
       [ "VoxelImporter", "class_voxel_toolkit_1_1_voxel_importer.html", null ],
-      [ "VoxelObject", "class_voxel_toolkit_1_1_voxel_object.html", "class_voxel_toolkit_1_1_voxel_object" ]
-    ] ]
+      [ "VoxelObject", "class_voxel_toolkit_1_1_voxel_object.html", "class_voxel_toolkit_1_1_voxel_object" ],
+      [ "VoxelObjectModifier", "class_voxel_toolkit_1_1_voxel_object_modifier.html", null ],
+      [ "VoxelQueryResult", "struct_voxel_toolkit_1_1_voxel_query_result.html", null ]
+    ] ],
+    [ "GenericList", "class_generic_list.html", null ],
+    [ "IVoxelObjectPreprocessor", "interface_i_voxel_object_preprocessor.html", null ]
 ];

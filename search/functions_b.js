@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['transformvoxeltoworld_0',['TransformVoxelToWorld',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a865aa81ca615cd92899c35b0e97ae603',1,'VoxelToolkit.DynamicVoxelObject.TransformVoxelToWorld(Vector3Int voxelPosition)'],['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a89de5b167bdff52ba77d363a34e46835',1,'VoxelToolkit.DynamicVoxelObject.TransformVoxelToWorld(int3 voxelPosition)']]],
-  ['transformworldtovoxel_1',['TransformWorldToVoxel',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a143f2f4b1e949a1f5662b7bbe02f7f94',1,'VoxelToolkit.DynamicVoxelObject.TransformWorldToVoxel(Vector3 worldPosition)'],['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a1ec9956f159849c25049e7376ccead91',1,'VoxelToolkit.DynamicVoxelObject.TransformWorldToVoxel(float3 worldPosition)']]]
+  ['setmaterial_0',['SetMaterial',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a9d32d15c6dbdfcfe1a8d0adb65640eb4',1,'VoxelToolkit.DynamicVoxelObject.SetMaterial()'],['../class_voxel_toolkit_1_1_voxel_object.html#ad860e8a83563fac235b93093adb5514d',1,'VoxelToolkit.VoxelObject.SetMaterial()']]],
+  ['setpalettematerial_1',['SetPaletteMaterial',['../class_voxel_toolkit_1_1_voxel_asset.html#a4563074d77c6d3d19925d0c90d40a63d',1,'VoxelToolkit::VoxelAsset']]],
+  ['setsphere_2',['SetSphere',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#a766c1e73611863069587669b76948e23',1,'VoxelToolkit::DynamicVoxelObject']]],
+  ['setupfrommodel_3',['SetupFromModel',['../class_voxel_toolkit_1_1_dynamic_voxel_object.html#ad51f397c8e46053882738c0ba61ddf43',1,'VoxelToolkit::DynamicVoxelObject']]],
+  ['setupvoxelobjectpart_4',['SetupVoxelObjectPart',['../interface_voxel_toolkit_1_1_i_voxel_object_part_setup_handler.html#adc85750df620889efa3cd6ce6b65a915',1,'VoxelToolkit.IVoxelObjectPartSetupHandler.SetupVoxelObjectPart()'],['../class_voxel_toolkit_1_1_mesh_collider_setup_handler.html#a70486c5a5e8574f13426bac013a4addf',1,'VoxelToolkit.MeshColliderSetupHandler.SetupVoxelObjectPart()']]],
+  ['setvoxels_5',['SetVoxels',['../class_voxel_toolkit_1_1_model.html#adb74c5feeed85351a9a39795e92da493',1,'VoxelToolkit::Model']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['face_0',['Face',['../struct_voxel_toolkit_1_1_face.html',1,'VoxelToolkit']]],
-  ['facesgenerationjob_1',['FacesGenerationJob',['../struct_voxel_toolkit_1_1_faces_generation_job.html',1,'VoxelToolkit']]]
+  ['explodevoxeldemoparticles_0',['ExplodeVoxelDemoParticles',['../class_voxel_toolkit_1_1_demo_1_1_explode_voxel_demo_particles.html',1,'VoxelToolkit::Demo']]],
+  ['explodevoxeldemorigidbodies_1',['ExplodeVoxelDemoRigidBodies',['../class_voxel_toolkit_1_1_demo_1_1_explode_voxel_demo_rigid_bodies.html',1,'VoxelToolkit::Demo']]]
 ];

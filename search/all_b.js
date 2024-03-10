@@ -6,12 +6,15 @@ var searchData=
   ['materialtype_3',['MaterialType',['../struct_voxel_toolkit_1_1_material.html#a4d17d7ae25997a856fc1ed0506dbaa83',1,'VoxelToolkit.Material.MaterialType()'],['../namespace_voxel_toolkit.html#a6093e5a9e6a29957acd569f41783878a',1,'VoxelToolkit.MaterialType()']]],
   ['matrix3x3int_4',['Matrix3x3Int',['../struct_voxel_toolkit_1_1_matrix3x3_int.html',1,'VoxelToolkit']]],
   ['mesh_5',['Mesh',['../struct_voxel_toolkit_1_1_mesh_descriptor.html#a1c9ac8d8ba64f54d99506df9c546f55a',1,'VoxelToolkit::MeshDescriptor']]],
-  ['meshdescriptor_6',['MeshDescriptor',['../struct_voxel_toolkit_1_1_part_info.html#a8285728715779ef2e82fb9585b12f2e6',1,'VoxelToolkit.PartInfo.MeshDescriptor()'],['../struct_voxel_toolkit_1_1_mesh_descriptor.html',1,'VoxelToolkit.MeshDescriptor']]],
-  ['meshescount_7',['MeshesCount',['../class_voxel_toolkit_1_1_voxel_object.html#a86bacf97ad151acdfc2dc7c9178accdc',1,'VoxelToolkit::VoxelObject']]],
-  ['meshgenerationjob_8',['MeshGenerationJob',['../struct_voxel_toolkit_1_1_mesh_generation_job.html',1,'VoxelToolkit']]],
-  ['meshkind_9',['MeshKind',['../namespace_voxel_toolkit.html#a52f7bf2250bb0c9e1956839a3b2a3dc5',1,'VoxelToolkit']]],
-  ['model_10',['Model',['../class_voxel_toolkit_1_1_model.html',1,'VoxelToolkit']]],
-  ['modelreference_11',['ModelReference',['../class_voxel_toolkit_1_1_magica_voxel_1_1_model_reference.html',1,'VoxelToolkit::MagicaVoxel']]],
-  ['modelscount_12',['ModelsCount',['../class_voxel_toolkit_1_1_shape.html#a6bf8be2f8cc880124046df9f0eaf7afa',1,'VoxelToolkit.Shape.ModelsCount()'],['../class_voxel_toolkit_1_1_voxel_asset.html#ac22ddebf9a7b7d471806ba4ee3456006',1,'VoxelToolkit.VoxelAsset.ModelsCount()']]],
-  ['modifyobjectinruntimedemo_13',['ModifyObjectInRuntimeDemo',['../class_voxel_toolkit_1_1_demo_1_1_modify_object_in_runtime_demo.html',1,'VoxelToolkit::Demo']]]
+  ['meshcollidersetuphandler_6',['MeshColliderSetupHandler',['../class_voxel_toolkit_1_1_mesh_collider_setup_handler.html',1,'VoxelToolkit']]],
+  ['meshdescriptor_7',['MeshDescriptor',['../struct_voxel_toolkit_1_1_part_info.html#a8285728715779ef2e82fb9585b12f2e6',1,'VoxelToolkit.PartInfo.MeshDescriptor()'],['../struct_voxel_toolkit_1_1_mesh_descriptor.html',1,'VoxelToolkit.MeshDescriptor']]],
+  ['meshescount_8',['MeshesCount',['../class_voxel_toolkit_1_1_voxel_object.html#a86bacf97ad151acdfc2dc7c9178accdc',1,'VoxelToolkit::VoxelObject']]],
+  ['meshgenerationapproach_9',['MeshGenerationApproach',['../class_voxel_toolkit_1_1_game_object_builder.html#acae09b1e9d254deae207ba516c571feb',1,'VoxelToolkit.GameObjectBuilder.MeshGenerationApproach()'],['../namespace_voxel_toolkit.html#abe69b4447cdefebaab7f2f0dd5da7101',1,'VoxelToolkit.MeshGenerationApproach()']]],
+  ['meshgenerationjob_10',['MeshGenerationJob',['../struct_voxel_toolkit_1_1_mesh_generation_job.html',1,'VoxelToolkit']]],
+  ['meshkind_11',['MeshKind',['../namespace_voxel_toolkit.html#a52f7bf2250bb0c9e1956839a3b2a3dc5',1,'VoxelToolkit']]],
+  ['model_12',['Model',['../class_voxel_toolkit_1_1_model.html',1,'VoxelToolkit']]],
+  ['modelreference_13',['ModelReference',['../class_voxel_toolkit_1_1_magica_voxel_1_1_model_reference.html',1,'VoxelToolkit::MagicaVoxel']]],
+  ['models_14',['Models',['../class_voxel_toolkit_1_1_shape.html#ac290f2123eb682e2fcb3d12f2c1ba33b',1,'VoxelToolkit.Shape.Models()'],['../class_voxel_toolkit_1_1_voxel_asset.html#a1fe6a72627c254be1098b1ed85a713ad',1,'VoxelToolkit.VoxelAsset.Models()']]],
+  ['modelscount_15',['ModelsCount',['../class_voxel_toolkit_1_1_shape.html#a6bf8be2f8cc880124046df9f0eaf7afa',1,'VoxelToolkit::Shape']]],
+  ['modifyobjectinruntimedemo_16',['ModifyObjectInRuntimeDemo',['../class_voxel_toolkit_1_1_demo_1_1_modify_object_in_runtime_demo.html',1,'VoxelToolkit::Demo']]]
 ];

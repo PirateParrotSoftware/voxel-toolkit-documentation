@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['layer_0',['Layer',['../class_voxel_toolkit_1_1_layer.html',1,'VoxelToolkit']]],
-  ['loader_1',['Loader',['../class_voxel_toolkit_1_1_demo_1_1_loader.html',1,'VoxelToolkit::Demo']]]
+  ['indexgenerator_0',['IndexGenerator',['../class_voxel_toolkit_1_1_index_generator.html',1,'VoxelToolkit']]],
+  ['ivoxelobjectpartreleasehandler_1',['IVoxelObjectPartReleaseHandler',['../interface_voxel_toolkit_1_1_i_voxel_object_part_release_handler.html',1,'VoxelToolkit']]],
+  ['ivoxelobjectpartsetuphandler_2',['IVoxelObjectPartSetupHandler',['../interface_voxel_toolkit_1_1_i_voxel_object_part_setup_handler.html',1,'VoxelToolkit']]],
+  ['ivoxelobjectpreprocessor_3',['IVoxelObjectPreprocessor',['../interface_i_voxel_object_preprocessor.html',1,'']]]
 ];

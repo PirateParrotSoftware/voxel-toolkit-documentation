@@ -4,7 +4,9 @@ var namespace_voxel_toolkit =
     [ "Editor", "namespace_voxel_toolkit_1_1_editor.html", "namespace_voxel_toolkit_1_1_editor" ],
     [ "MagicaVoxel", "namespace_voxel_toolkit_1_1_magica_voxel.html", "namespace_voxel_toolkit_1_1_magica_voxel" ],
     [ "BooleanArray", "struct_voxel_toolkit_1_1_boolean_array.html", null ],
+    [ "Color32", "struct_voxel_toolkit_1_1_color32.html", null ],
     [ "CopyVerticesJob", "struct_voxel_toolkit_1_1_copy_vertices_job.html", null ],
+    [ "CountQuadsJob", "struct_voxel_toolkit_1_1_count_quads_job.html", null ],
     [ "DynamicVoxelObject", "class_voxel_toolkit_1_1_dynamic_voxel_object.html", "class_voxel_toolkit_1_1_dynamic_voxel_object" ],
     [ "DynamicVoxelObjectModelLoader", "class_voxel_toolkit_1_1_dynamic_voxel_object_model_loader.html", null ],
     [ "Face", "struct_voxel_toolkit_1_1_face.html", null ],
@@ -19,7 +21,8 @@ var namespace_voxel_toolkit =
     [ "MagicaVoxelImporter", "class_voxel_toolkit_1_1_magica_voxel_importer.html", "class_voxel_toolkit_1_1_magica_voxel_importer" ],
     [ "Material", "struct_voxel_toolkit_1_1_material.html", "struct_voxel_toolkit_1_1_material" ],
     [ "MaterialParameters", "struct_voxel_toolkit_1_1_material_parameters.html", null ],
-    [ "Matrix3x3Int", "struct_voxel_toolkit_1_1_matrix3x3_int.html", null ],
+    [ "Matrix3x3Int", "struct_voxel_toolkit_1_1_matrix3x3_int.html", "struct_voxel_toolkit_1_1_matrix3x3_int" ],
+    [ "MeshColliderSetupHandler", "class_voxel_toolkit_1_1_mesh_collider_setup_handler.html", "class_voxel_toolkit_1_1_mesh_collider_setup_handler" ],
     [ "MeshDescriptor", "struct_voxel_toolkit_1_1_mesh_descriptor.html", "struct_voxel_toolkit_1_1_mesh_descriptor" ],
     [ "MeshGenerationJob", "struct_voxel_toolkit_1_1_mesh_generation_job.html", null ],
     [ "Model", "class_voxel_toolkit_1_1_model.html", "class_voxel_toolkit_1_1_model" ],
@@ -30,6 +33,9 @@ var namespace_voxel_toolkit =
     [ "Reader", "class_voxel_toolkit_1_1_reader.html", null ],
     [ "ReadonlyArray", "struct_voxel_toolkit_1_1_readonly_array.html", null ],
     [ "Shape", "class_voxel_toolkit_1_1_shape.html", "class_voxel_toolkit_1_1_shape" ],
+    [ "SnowVoxelObjectModifier", "class_voxel_toolkit_1_1_snow_voxel_object_modifier.html", null ],
+    [ "TextureDescriptor", "struct_voxel_toolkit_1_1_texture_descriptor.html", null ],
+    [ "TextureFillJob", "struct_voxel_toolkit_1_1_texture_fill_job.html", null ],
     [ "Transformation", "class_voxel_toolkit_1_1_transformation.html", "class_voxel_toolkit_1_1_transformation" ],
     [ "TransformationFrame", "struct_voxel_toolkit_1_1_transformation_frame.html", "struct_voxel_toolkit_1_1_transformation_frame" ],
     [ "TransformedMaterial", "struct_voxel_toolkit_1_1_transformed_material.html", null ],
@@ -41,10 +47,16 @@ var namespace_voxel_toolkit =
     [ "VoxelDataReadException", "class_voxel_toolkit_1_1_voxel_data_read_exception.html", null ],
     [ "VoxelImporter", "class_voxel_toolkit_1_1_voxel_importer.html", null ],
     [ "VoxelObject", "class_voxel_toolkit_1_1_voxel_object.html", "class_voxel_toolkit_1_1_voxel_object" ],
+    [ "VoxelObjectModifier", "class_voxel_toolkit_1_1_voxel_object_modifier.html", null ],
+    [ "VoxelQueryResult", "struct_voxel_toolkit_1_1_voxel_query_result.html", null ],
     [ "MaterialType", "namespace_voxel_toolkit.html#a6093e5a9e6a29957acd569f41783878a", [
       [ "Invalid", "namespace_voxel_toolkit.html#a6093e5a9e6a29957acd569f41783878aa4bbb8f967da6d1a610596d7257179c2b", null ],
       [ "Basic", "namespace_voxel_toolkit.html#a6093e5a9e6a29957acd569f41783878aa972e73b7a882d0802a4e3a16946a2f94", null ],
       [ "Transparent", "namespace_voxel_toolkit.html#a6093e5a9e6a29957acd569f41783878aa3d971943089a3388c01fb297a32d9ba7", null ]
+    ] ],
+    [ "MeshGenerationApproach", "namespace_voxel_toolkit.html#abe69b4447cdefebaab7f2f0dd5da7101", [
+      [ "Textureless", "namespace_voxel_toolkit.html#abe69b4447cdefebaab7f2f0dd5da7101a7ec18bc02f89c186d7f6c17188c617bd", null ],
+      [ "Textured", "namespace_voxel_toolkit.html#abe69b4447cdefebaab7f2f0dd5da7101a727faf49bd334ad8c6692934ff652843", null ]
     ] ],
     [ "MeshKind", "namespace_voxel_toolkit.html#a52f7bf2250bb0c9e1956839a3b2a3dc5", [
       [ "Invalid", "namespace_voxel_toolkit.html#a52f7bf2250bb0c9e1956839a3b2a3dc5a4bbb8f967da6d1a610596d7257179c2b", null ],
@@ -58,5 +70,11 @@ var namespace_voxel_toolkit =
     [ "VoxelKind", "namespace_voxel_toolkit.html#ab44b308b0663cfb0974ac926f9c3f08e", [
       [ "Empty", "namespace_voxel_toolkit.html#ab44b308b0663cfb0974ac926f9c3f08eace2c8aed9c2fa0cfbed56cbda4d8bf07", null ],
       [ "Solid", "namespace_voxel_toolkit.html#ab44b308b0663cfb0974ac926f9c3f08eae41480b6bbfbf7407974a88d3d34f4fa", null ]
+    ] ],
+    [ "VoxelQueryOptions", "namespace_voxel_toolkit.html#a566168f6d682720cad28993039e58a77", [
+      [ "None", "namespace_voxel_toolkit.html#a566168f6d682720cad28993039e58a77a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "IncludeEmpty", "namespace_voxel_toolkit.html#a566168f6d682720cad28993039e58a77ae44b04847a122a19e8578868694f7190", null ],
+      [ "IncludeSolid", "namespace_voxel_toolkit.html#a566168f6d682720cad28993039e58a77a74abfc136799117bf4c4d19eade5d7b6", null ],
+      [ "Default", "namespace_voxel_toolkit.html#a566168f6d682720cad28993039e58a77a7a1920d61156abc05a60135aefe8bc67", null ]
     ] ]
 ];

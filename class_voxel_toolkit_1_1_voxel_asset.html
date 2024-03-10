@@ -124,15 +124,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa327098654b974aa466e2e193835278e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_voxel_toolkit_1_1_layer.html">Layer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#aa327098654b974aa466e2e193835278e">GetLayer</a> (int index)</td></tr>
 <tr class="memdesc:aa327098654b974aa466e2e193835278e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the layer by its index.  <br /></td></tr>
 <tr class="separator:aa327098654b974aa466e2e193835278e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3e1935ff3753b2c828705d1f91b8c69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#aa3e1935ff3753b2c828705d1f91b8c69">AddModel</a> (<a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a> model)</td></tr>
-<tr class="memdesc:aa3e1935ff3753b2c828705d1f91b8c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a model to a list of models.  <br /></td></tr>
-<tr class="separator:aa3e1935ff3753b2c828705d1f91b8c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a632cb4bc5ce90893f8e84d569fe30c35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#a632cb4bc5ce90893f8e84d569fe30c35">FindModelById</a> (int id)</td></tr>
-<tr class="memdesc:a632cb4bc5ce90893f8e84d569fe30c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a model by it's ID.  <br /></td></tr>
-<tr class="separator:a632cb4bc5ce90893f8e84d569fe30c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2bfd75aee33a93382774eea31ebe4b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#af2bfd75aee33a93382774eea31ebe4b3">GetModel</a> (int index)</td></tr>
-<tr class="memdesc:af2bfd75aee33a93382774eea31ebe4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a model with an index.  <br /></td></tr>
-<tr class="separator:af2bfd75aee33a93382774eea31ebe4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -152,14 +143,13 @@ string&#160;</td><td class="memItemRight" valign="bottom"><b>Version</b><code> [
 string&#160;</td><td class="memItemRight" valign="bottom"><b>InputSource</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a01bc5ce46951251473335fdc8358823c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The way the asset was imported. <br /></td></tr>
 <tr class="separator:a01bc5ce46951251473335fdc8358823c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac22ddebf9a7b7d471806ba4ee3456006"><td class="memItemLeft" align="right" valign="top"><a id="ac22ddebf9a7b7d471806ba4ee3456006" name="ac22ddebf9a7b7d471806ba4ee3456006"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>ModelsCount</b><code> [get]</code></td></tr>
-<tr class="memdesc:ac22ddebf9a7b7d471806ba4ee3456006"><td class="mdescLeft">&#160;</td><td class="mdescRight">The count of the models contained. <br /></td></tr>
-<tr class="separator:ac22ddebf9a7b7d471806ba4ee3456006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0168f0266fd43f4c58fdd1527d934502"><td class="memItemLeft" align="right" valign="top"><a id="a0168f0266fd43f4c58fdd1527d934502" name="a0168f0266fd43f4c58fdd1527d934502"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>LayersCount</b><code> [get]</code></td></tr>
 <tr class="memdesc:a0168f0266fd43f4c58fdd1527d934502"><td class="mdescLeft">&#160;</td><td class="mdescRight">The count of layers in the asset. <br /></td></tr>
 <tr class="separator:a0168f0266fd43f4c58fdd1527d934502"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe6a72627c254be1098b1ed85a713ad"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_voxel_asset.html#a1fe6a72627c254be1098b1ed85a713ad">Models</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1fe6a72627c254be1098b1ed85a713ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides models contained in the asset.  <br /></td></tr>
+<tr class="separator:a1fe6a72627c254be1098b1ed85a713ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents the voxel asset. </p>
@@ -184,32 +174,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>LayersCount</b><code> 
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layer</td><td>The layer to be added</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aa3e1935ff3753b2c828705d1f91b8c69" name="aa3e1935ff3753b2c828705d1f91b8c69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa3e1935ff3753b2c828705d1f91b8c69">&#9670;&#160;</a></span>AddModel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void VoxelToolkit.VoxelAsset.AddModel </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a>&#160;</td>
-          <td class="paramname"><em>model</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Adds a model to a list of models. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">model</td><td>The model to be added</td></tr>
   </table>
   </dd>
 </dl>
@@ -243,33 +207,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>LayersCount</b><code> 
 
 </div>
 </div>
-<a id="a632cb4bc5ce90893f8e84d569fe30c35" name="a632cb4bc5ce90893f8e84d569fe30c35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a632cb4bc5ce90893f8e84d569fe30c35">&#9670;&#160;</a></span>FindModelById()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a> VoxelToolkit.VoxelAsset.FindModelById </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>id</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Finds a model by it's ID. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">id</td><td>The ID of model to be found</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The model with a specified ID</dd></dl>
-
-</div>
-</div>
 <a id="aa327098654b974aa466e2e193835278e" name="aa327098654b974aa466e2e193835278e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa327098654b974aa466e2e193835278e">&#9670;&#160;</a></span>GetLayer()</h2>
 
@@ -294,33 +231,6 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>LayersCount</b><code> 
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
-
-</div>
-</div>
-<a id="af2bfd75aee33a93382774eea31ebe4b3" name="af2bfd75aee33a93382774eea31ebe4b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2bfd75aee33a93382774eea31ebe4b3">&#9670;&#160;</a></span>GetModel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a> VoxelToolkit.VoxelAsset.GetModel </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>index</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns a model with an index. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">index</td><td>The index of the model</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The model located at the specified index</dd></dl>
 
 </div>
 </div>
@@ -397,6 +307,32 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>LayersCount</b><code> 
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a1fe6a72627c254be1098b1ed85a713ad" name="a1fe6a72627c254be1098b1ed85a713ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fe6a72627c254be1098b1ed85a713ad">&#9670;&#160;</a></span>Models</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a>&gt; VoxelToolkit.VoxelAsset.Models</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Provides models contained in the asset. </p>
+<dl class="section return"><dt>Returns</dt><dd>The models of the asset</dd></dl>
 
 </div>
 </div>

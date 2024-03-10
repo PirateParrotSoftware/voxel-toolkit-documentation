@@ -147,6 +147,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> ()</td></
 void&#160;</td><td class="memItemRight" valign="bottom"><b>DisposeWithoutMeshes</b> ()</td></tr>
 <tr class="memdesc:a97c513cda13d9a7409565dca6e032df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disposes the voxel object but keeps meshes alive. <br /></td></tr>
 <tr class="separator:a97c513cda13d9a7409565dca6e032df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4456962f1534684571f05960266134fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voxel_toolkit_1_1_voxel_object.html#a4456962f1534684571f05960266134fc">ToModel</a> ()</td></tr>
+<tr class="memdesc:a4456962f1534684571f05960266134fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transforms voxel object to model.  <br /></td></tr>
+<tr class="separator:a4456962f1534684571f05960266134fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -160,6 +163,21 @@ Properties</h2></td></tr>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>MeshesCount</b><code> [get]</code></td></tr>
 <tr class="memdesc:a86bacf97ad151acdfc2dc7c9178accdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The count of the generated meshes. <br /></td></tr>
 <tr class="separator:a86bacf97ad151acdfc2dc7c9178accdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae569e133dbe58043056764a7a8947174"><td class="memItemLeft" align="right" valign="top"><a id="ae569e133dbe58043056764a7a8947174" name="ae569e133dbe58043056764a7a8947174"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>HueShift</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:ae569e133dbe58043056764a7a8947174"><td class="mdescLeft">&#160;</td><td class="mdescRight">The hue shift to be applied to the materials. <br /></td></tr>
+<tr class="separator:ae569e133dbe58043056764a7a8947174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fd7d263f0f66270443f0af7546420c0"><td class="memItemLeft" align="right" valign="top"><a id="a7fd7d263f0f66270443f0af7546420c0" name="a7fd7d263f0f66270443f0af7546420c0"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>Saturation</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7fd7d263f0f66270443f0af7546420c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saturation to be applied to the materials. <br /></td></tr>
+<tr class="separator:a7fd7d263f0f66270443f0af7546420c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6bdb3a429f2daa9a6e0529df0ee35c"><td class="memItemLeft" align="right" valign="top"><a id="aaa6bdb3a429f2daa9a6e0529df0ee35c" name="aaa6bdb3a429f2daa9a6e0529df0ee35c"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>Brightness</b><code> [get, set]</code></td></tr>
+<tr class="memdesc:aaa6bdb3a429f2daa9a6e0529df0ee35c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Brightness to be applied to the materials. <br /></td></tr>
+<tr class="separator:aaa6bdb3a429f2daa9a6e0529df0ee35c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf7876fbefc3d90ecb5f316a4024f4c"><td class="memItemLeft" align="right" valign="top"><a id="afbf7876fbefc3d90ecb5f316a4024f4c" name="afbf7876fbefc3d90ecb5f316a4024f4c"></a>
+<a class="el" href="namespace_voxel_toolkit.html#abe69b4447cdefebaab7f2f0dd5da7101">MeshGenerationApproach</a>&#160;</td><td class="memItemRight" valign="bottom"><b>MeshGenerationApproach</b><code> [get, set]</code></td></tr>
+<tr class="separator:afbf7876fbefc3d90ecb5f316a4024f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56ba6b94d7fb23b5addc5c49c5c5e088"><td class="memItemLeft" align="right" valign="top"><a id="a56ba6b94d7fb23b5addc5c49c5c5e088" name="a56ba6b94d7fb23b5addc5c49c5c5e088"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b><code> [get, set]</code></td></tr>
 <tr class="memdesc:a56ba6b94d7fb23b5addc5c49c5c5e088"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scale of the voxel object. <br /></td></tr>
@@ -469,6 +487,26 @@ Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><b>ChunksCount</b>
 
 </div>
 </div>
+<a id="a4456962f1534684571f05960266134fc" name="a4456962f1534684571f05960266134fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4456962f1534684571f05960266134fc">&#9670;&#160;</a></span>ToModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_voxel_toolkit_1_1_model.html">Model</a> VoxelToolkit.VoxelObject.ToModel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Transforms voxel object to model. </p>
+<dl class="section return"><dt>Returns</dt><dd>Model representing the voxel object</dd></dl>
+
+</div>
+</div>
 <a id="a6cd2495c917023f5f582efee8cff0f21" name="a6cd2495c917023f5f582efee8cff0f21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6cd2495c917023f5f582efee8cff0f21">&#9670;&#160;</a></span>UpdateMeshes()</h2>
 
@@ -499,6 +537,7 @@ Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><b>ChunksCount</b>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">indexFormat</td><td>The index format to be used for the meshes</td></tr>
+    <tr><td class="paramname">generationApproach</td><td>The generation approach to be taken to generate meshes</td></tr>
     <tr><td class="paramname">shift</td><td>The shift applied to the vertices</td></tr>
   </table>
   </dd>

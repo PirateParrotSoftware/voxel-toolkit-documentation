@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['opaque_0',['Opaque',['../namespace_voxel_toolkit.html#a52f7bf2250bb0c9e1956839a3b2a3dc5afaa90538de35640e4b1e31ccf35b6eb5',1,'VoxelToolkit']]]
+  ['none_0',['None',['../namespace_voxel_toolkit.html#a566168f6d682720cad28993039e58a77a6adf97f83acf6453d4a6a4b1070f3754',1,'VoxelToolkit']]]
 ];

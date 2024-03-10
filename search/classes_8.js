@@ -1,12 +1,5 @@
 var searchData=
 [
-  ['magicavoxelimporter_0',['MagicaVoxelImporter',['../class_voxel_toolkit_1_1_editor_1_1_magica_voxel_importer.html',1,'VoxelToolkit.Editor.MagicaVoxelImporter'],['../class_voxel_toolkit_1_1_magica_voxel_importer.html',1,'VoxelToolkit.MagicaVoxelImporter']]],
-  ['material_1',['Material',['../struct_voxel_toolkit_1_1_material.html',1,'VoxelToolkit']]],
-  ['materialparameters_2',['MaterialParameters',['../struct_voxel_toolkit_1_1_material_parameters.html',1,'VoxelToolkit']]],
-  ['matrix3x3int_3',['Matrix3x3Int',['../struct_voxel_toolkit_1_1_matrix3x3_int.html',1,'VoxelToolkit']]],
-  ['meshdescriptor_4',['MeshDescriptor',['../struct_voxel_toolkit_1_1_mesh_descriptor.html',1,'VoxelToolkit']]],
-  ['meshgenerationjob_5',['MeshGenerationJob',['../struct_voxel_toolkit_1_1_mesh_generation_job.html',1,'VoxelToolkit']]],
-  ['model_6',['Model',['../class_voxel_toolkit_1_1_model.html',1,'VoxelToolkit']]],
-  ['modelreference_7',['ModelReference',['../class_voxel_toolkit_1_1_magica_voxel_1_1_model_reference.html',1,'VoxelToolkit::MagicaVoxel']]],
-  ['modifyobjectinruntimedemo_8',['ModifyObjectInRuntimeDemo',['../class_voxel_toolkit_1_1_demo_1_1_modify_object_in_runtime_demo.html',1,'VoxelToolkit::Demo']]]
+  ['layer_0',['Layer',['../class_voxel_toolkit_1_1_layer.html',1,'VoxelToolkit']]],
+  ['loader_1',['Loader',['../class_voxel_toolkit_1_1_demo_1_1_loader.html',1,'VoxelToolkit::Demo']]]
 ];

@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('struct_voxel_toolkit_1_1_matrix3x3_int
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="struct_voxel_toolkit_1_1_matrix3x3_int-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">VoxelToolkit.Matrix3x3Int Struct Reference</div></div>
 </div><!--header-->
@@ -114,6 +115,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5ccc7a36cdd55620341061e03e75a2b7"><td class="memItemLeft" align="right" valign="top">static Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html#a5ccc7a36cdd55620341061e03e75a2b7">operator*</a> (<a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a> matrix, Vector3Int vector)</td></tr>
 <tr class="memdesc:a5ccc7a36cdd55620341061e03e75a2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplication operation between Vector3Int and Matrix3x3Int.  <br /></td></tr>
 <tr class="separator:a5ccc7a36cdd55620341061e03e75a2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc1b8bb10de04f5a11982aacfb11187"><td class="memItemLeft" align="right" valign="top">static int3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html#a2cc1b8bb10de04f5a11982aacfb11187">operator*</a> (<a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a> matrix, int3 vector)</td></tr>
+<tr class="memdesc:a2cc1b8bb10de04f5a11982aacfb11187"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplication operation between int3 and Matrix3x3Int.  <br /></td></tr>
+<tr class="separator:a2cc1b8bb10de04f5a11982aacfb11187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe88ea2b5d93a56e403ecd3b5b69be07"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html#afe88ea2b5d93a56e403ecd3b5b69be07">operator*</a> (<a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a> first, <a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a> second)</td></tr>
+<tr class="memdesc:afe88ea2b5d93a56e403ecd3b5b69be07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Multiplication operation between two matrices.  <br /></td></tr>
+<tr class="separator:afe88ea2b5d93a56e403ecd3b5b69be07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cab5f2b587b4b46eaf66e0e3a0ac02a"><td class="memItemLeft" align="right" valign="top">static implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html#a9cab5f2b587b4b46eaf66e0e3a0ac02a">operator Matrix3x3Int</a> (Matrix4x4 matrix4X4)</td></tr>
+<tr class="memdesc:a9cab5f2b587b4b46eaf66e0e3a0ac02a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts Matrix4x4 to Matrix3x3Int.  <br /></td></tr>
+<tr class="separator:a9cab5f2b587b4b46eaf66e0e3a0ac02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18eaacd51c86826c32e0329ba4760562"><td class="memItemLeft" align="right" valign="top">static implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html#a18eaacd51c86826c32e0329ba4760562">operator Matrix4x4</a> (<a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a> inMatrix)</td></tr>
 <tr class="memdesc:a18eaacd51c86826c32e0329ba4760562"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts <a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html" title="The structure that represents integer matrix.">VoxelToolkit.Matrix3x3Int</a> to an ordinary Matrix4x4.  <br /></td></tr>
 <tr class="separator:a18eaacd51c86826c32e0329ba4760562"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,10 +163,52 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a1290d97570290fb3a3cf7a820832aa7a"><td class="memItemLeft" align="right" valign="top">static readonly <a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html#a1290d97570290fb3a3cf7a820832aa7a">Identity</a></td></tr>
 <tr class="memdesc:a1290d97570290fb3a3cf7a820832aa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identity matrix.  <br /></td></tr>
 <tr class="separator:a1290d97570290fb3a3cf7a820832aa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a1619d752281bdd6f57e7186e6bc36b60"><td class="memItemLeft" align="right" valign="top"><a id="a1619d752281bdd6f57e7186e6bc36b60" name="a1619d752281bdd6f57e7186e6bc36b60"></a>
+<a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Inversed</b><code> [get]</code></td></tr>
+<tr class="memdesc:a1619d752281bdd6f57e7186e6bc36b60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inversed matrix. <br /></td></tr>
+<tr class="separator:a1619d752281bdd6f57e7186e6bc36b60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The structure that represents integer matrix. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9cab5f2b587b4b46eaf66e0e3a0ac02a" name="a9cab5f2b587b4b46eaf66e0e3a0ac02a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cab5f2b587b4b46eaf66e0e3a0ac02a">&#9670;&#160;</a></span>operator Matrix3x3Int()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static implicit VoxelToolkit.Matrix3x3Int.operator <a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a> </td>
+          <td>(</td>
+          <td class="paramtype">Matrix4x4&#160;</td>
+          <td class="paramname"><em>matrix4X4</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts Matrix4x4 to Matrix3x3Int. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">matrix4X4</td><td>The matrix to convert</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result</dd></dl>
+
+</div>
+</div>
 <a id="a18eaacd51c86826c32e0329ba4760562" name="a18eaacd51c86826c32e0329ba4760562"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a18eaacd51c86826c32e0329ba4760562">&#9670;&#160;</a></span>operator Matrix4x4()</h2>
 
@@ -192,8 +244,105 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="afe88ea2b5d93a56e403ecd3b5b69be07" name="afe88ea2b5d93a56e403ecd3b5b69be07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe88ea2b5d93a56e403ecd3b5b69be07">&#9670;&#160;</a></span>operator*() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a> VoxelToolkit.Matrix3x3Int.operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a>&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a>&#160;</td>
+          <td class="paramname"><em>second</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multiplication operation between two matrices. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>First matrix </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">second</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<p>Second matrix </p><dl class="section return"><dt>Returns</dt><dd>Result</dd></dl>
+
+</div>
+</div>
+<a id="a2cc1b8bb10de04f5a11982aacfb11187" name="a2cc1b8bb10de04f5a11982aacfb11187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc1b8bb10de04f5a11982aacfb11187">&#9670;&#160;</a></span>operator*() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int3 VoxelToolkit.Matrix3x3Int.operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_voxel_toolkit_1_1_matrix3x3_int.html">Matrix3x3Int</a>&#160;</td>
+          <td class="paramname"><em>matrix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int3&#160;</td>
+          <td class="paramname"><em>vector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Multiplication operation between int3 and Matrix3x3Int. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">matrix</td><td>The matrix to multiply</td></tr>
+    <tr><td class="paramname">vector</td><td>The vector to multiply</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result</dd></dl>
+
+</div>
+</div>
 <a id="a5ccc7a36cdd55620341061e03e75a2b7" name="a5ccc7a36cdd55620341061e03e75a2b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ccc7a36cdd55620341061e03e75a2b7">&#9670;&#160;</a></span>operator*()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ccc7a36cdd55620341061e03e75a2b7">&#9670;&#160;</a></span>operator*() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,12 +378,12 @@ Static Public Attributes</h2></td></tr>
 <p>Multiplication operation between Vector3Int and Matrix3x3Int. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">matrix</td><td></td></tr>
-    <tr><td class="paramname">vector</td><td></td></tr>
+    <tr><td class="paramname">matrix</td><td>The matrix to multiply</td></tr>
+    <tr><td class="paramname">vector</td><td>The vector to multiply</td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Result</dd></dl>
 
 </div>
 </div>
